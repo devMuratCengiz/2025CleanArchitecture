@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025CleanArchitecture.Domain", "2025CleanArchitecture.Domain\2025CleanArchitecture.Domain.csproj", "{3E1974D6-928B-4A88-8D81-F387E26D18D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025CleanArchitecture.Application", "2025CleanArchitecture.Application\2025CleanArchitecture.Application.csproj", "{A471CA95-5B6D-4D1B-AB84-3611C40A6F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025CleanArchitecture.Infrastructure", "2025CleanArchitecture.Infrastructure\2025CleanArchitecture.Infrastructure.csproj", "{941F047C-C49C-4ED5-A469-1ED8A99F0B5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A471CA95-5B6D-4D1B-AB84-3611C40A6F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A471CA95-5B6D-4D1B-AB84-3611C40A6F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A471CA95-5B6D-4D1B-AB84-3611C40A6F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941F047C-C49C-4ED5-A469-1ED8A99F0B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941F047C-C49C-4ED5-A469-1ED8A99F0B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941F047C-C49C-4ED5-A469-1ED8A99F0B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941F047C-C49C-4ED5-A469-1ED8A99F0B5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
